@@ -4,7 +4,9 @@ class Index extends Component {
         super(props);
     }
     render() { 
-        return ( <h2>ynn.com</h2> );
+        return (    
+            <h2>ynn.com{console.log(this.props)}</h2>
+        );
     }
 }
  
