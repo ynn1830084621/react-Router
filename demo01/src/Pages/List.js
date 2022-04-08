@@ -5,7 +5,7 @@ class List extends Component {
         this.state = { };
     }
     componentDidMount() {
-        console.log(this.props, '111111');
+        console.log(this.props.match);
         let tempId = this.props.match.params.id;
         this.setState({id:tempId})
     }
