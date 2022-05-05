@@ -10,6 +10,7 @@ class Index extends Component {
                 {cid: 3, title: '计划3'},
             ]
         }
+        console.log(this.props, '333')
         this.props.history.push("/home/");//标签式重定向
     }
     render() { 
